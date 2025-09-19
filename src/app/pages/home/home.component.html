@@ -1,0 +1,16 @@
+<main>
+    <div class="box_main" #main>
+        <div class="about box_info"> 
+            <p>Desenvolvedor full-stack desde 2024
+                <br>
+                Angular, Java, spring</p>
+            </div>
+        <div class="name box_info"><p>José Morais</p> <img src="/batllecruiser.png" alt="" #nave> <div class="rastro" #rastro></div></div>
+        <div class="links box_info">
+            <p (click)="partida(1)" (mouseenter)="turbinas(true)" (mouseleave)="turbinas(false)"> Projetos</p>
+            <p (click)="partida(2)" (mouseenter)="turbinas(true)" (mouseleave)="turbinas(false)"> GitHub</p>
+            <p (mouseenter)="turbinas(true)" (mouseleave)="turbinas(false)"> <a href="https://www.linkedin.com/in/devjose-morais/?trk=public_profile-settings_edit-profile-content&originalSubdomain=br" target="_blank"> Linkedin</a></p>
+            <p (click)="partida(3)" (mouseenter)="turbinas(true)" (mouseleave)="turbinas(false)">Sobre mim</p>
+        </div>
+    </div>
+</main>
